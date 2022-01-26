@@ -7,6 +7,7 @@ function doAnything(myTime){
     if(myHour > 10 && myHour < 22){
         myClosed.style.display = "none";
         myOpen.style.display = "block";
+        console.log(myHour);
     }
     else{
         myClosed.style.display = "block";
@@ -30,19 +31,30 @@ function scrollFunction() {
 
 // after click button its srcoll page to top
 function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+    window.scroll({
+        left:0,
+        top:0,
+        behavior:"smooth"});
 }
 
 function FunAboutUsBtn() {
-    window.scroll(0,1980); // Scroll to About us pannel
+    window.scroll({
+        left:0,
+        top:1980,
+        behavior:"smooth"}); // Scroll to About us pannel
 }
 
 function FunContacts() {
-    window.scroll(0,2800); // Scroll to Contacts pannel
+    window.scroll({
+        left:0,
+        top:2800,
+        behavior:"smooth"}); // Scroll to Contacts pannel
 }
 function FunMenuBtn() {
-    window.scroll(0,650 ); // Scroll to Menu button
+    window.scroll({
+        left:0,
+        top:650,
+        behavior:"smooth"}); // Scroll to Menu button
 }
 
 /*change language*/ 
