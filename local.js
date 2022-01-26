@@ -34,14 +34,13 @@ var En = {
     'event_des' : 'Come to Boba tea, collect nine marks on the coupon and get the tenth drink as a gift.',
     'AboutUs' : 'About us',
     'about_us_text' : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    //'slogan' : "It's",
     'adress' : 'Türkistan, 16/5 Esil district, Nur-Sultan',
     'inst' : 'Follow us',
+    'bonuses' : 'Bonuses',
     'op_hours' : 'Opening hours',
-    'map' : 'Map',
-    'opne_days' : 'Every day',
+    'open_days' : 'Every day',
     'products': 'Products',
-    'bonuses' : 'Bonuses'
+    'map' : 'Map'
 };
 var Ru = {
     'Menu' : 'Меню',
@@ -56,7 +55,7 @@ var Ru = {
     'closed' : 'закрыто',
     'open' : 'открыто',
     'open_hours' : 'Открыт каждый день с 11 утра до 10 вечера',
-    'button_NP' : 'Новиньки',
+    'button_NP' : 'Новинки',
     'button_MT' : 'Чай с молоком',
     'button_BD' : 'Фирменные напитки',
     'button_S' : 'Смузи',
@@ -74,17 +73,16 @@ var Ru = {
     'size_l4' : 'Большой',
     'size_m4' : 'Средний',
     'size_b4' : 'Пузырьки',
-    'order' : 'Заказать через',
+    'order' : 'Заказать через', 
     'event' : '10-й чай Boba бесплатно',
     'event_des' : 'Приходите в Boba tea, соберите девять отметок на купоне и получите десятый напиток в подарок.',
     'AboutUs' : 'О нас',
     'about_us_text' : 'какой то тексткакой то тексткакой то тексткакой то тексткакой то тексткакой то тексткакой то тексткакой то тексткакой то тексткакой то тексткакой то тексткакой то тексткакой то тексткакой то тексткакой то тексткакой то тексткакой то тексткакой то тексткакой то тексткакой то текст какой то текст текст какой то текст текст какой то текст текст какой то текст текст какой то текст текст какой то текст текст какой то текст текст какой то текст',
-    //'slogan' : 'Это',
     'adress' : 'Түркістан, 16/5 Есиль район, Нур-Султан',
     'inst' : 'Подписывайтесь',
+    'bonuses' : 'Бонусы',
     'op_hours' : 'Открытие',
-    'map' : 'Карта',
     'open_days' : 'Каждый день',
     'products': 'Продукты',
-    'bonuses' : 'Бонусы'
+    'map' : 'Карта'
 };
