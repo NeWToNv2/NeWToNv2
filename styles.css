@@ -28,6 +28,7 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@media screen and (min-width: 320px) and (max-width: 1599px){   
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
@@ -217,10 +218,12 @@ main	{
 #open{
 	margin-left: 10px;
 	color: #72F38E;
+	display: none;
 }
 #closed{
 	margin-left: 10px;
 	color: #F37272;
+	display: block;
 }
 #open_hours {
 	font-weight: normal;
@@ -522,4 +525,5 @@ footer {
 	margin: 18px 0;
 	height: 4px;
 	color: #F9FBF7;
+}
 }

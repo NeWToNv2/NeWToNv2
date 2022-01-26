@@ -1,3 +1,19 @@
+var myClosed = document.getElementById("closed");
+var myOpen = document.getElementById("open");
+function doAnything(myTime){
+    myTime = new Date().toLocaleTimeString([] , {hour: "numeric" , minute: 'numeric' , second: 'numeric'} , {hour12: false}); 
+    myHour = parseInt(myTime.substring(0,2));   
+    if(myHour > 10 && myHour < 22){
+        myClosed.style.display = "none";
+        myOpen.style.display = "block";
+        console.log(myHour);
+    }
+    else{
+        myClosed.style.display = "block";
+        myOpen.style.display = "none";
+    }
+};
+doAnything();
 //Get the button
 var mybutton = document.getElementById("ScrollToTopBtn");
 
@@ -33,8 +49,8 @@ function FunMenuBtn() {
 function changeLang(lang) {
         lengthObj = Object.getOwnPropertyNames(lang).length;
             for (var i = 0; i <= lengthObj - 1; i++) {
-                console.log(i);
                 objKey = Object.getOwnPropertyNames(lang)[i];
+                console.log(objKey);
                 document.getElementById(objKey).innerText = func(objKey);
             }
 
@@ -46,3 +62,5 @@ function func(_objKey) {
     }
     }
 }
+
+
