@@ -2,12 +2,11 @@
 var myClosed = document.getElementById("closed");
 var myOpen = document.getElementById("open");
 function doAnything(myTime){
-    myTime = new Date().toLocaleTimeString([] , {hour: "numeric" , minute: 'numeric' , second: 'numeric'} , {hour12: false}); 
+    myTime = new Date().toLocaleTimeString([] , {hour: "numeric"} , {hour12: false}); 
     myHour = parseInt(myTime.substring(0,2));   
     if(myHour > 10 && myHour < 22){
         myClosed.style.display = "none";
         myOpen.style.display = "block";
-        console.log(myHour);
     }
     else{
         myClosed.style.display = "block";
