@@ -1,3 +1,4 @@
+//opening and closing by time
 var myClosed = document.getElementById("closed");
 var myOpen = document.getElementById("open");
 function doAnything(myTime){
