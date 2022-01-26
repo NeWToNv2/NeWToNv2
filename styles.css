@@ -28,7 +28,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-@media screen and (min-width: 320px) and (max-width: 1599px){   
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
@@ -525,5 +524,4 @@ footer {
 	margin: 18px 0;
 	height: 4px;
 	color: #F9FBF7;
-}
 }
