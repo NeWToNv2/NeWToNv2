@@ -6,7 +6,6 @@ function doAnything(myTime){
     if(myHour > 10 && myHour < 22){
         myClosed.style.display = "none";
         myOpen.style.display = "block";
-        console.log(myHour);
     }
     else{
         myClosed.style.display = "block";
