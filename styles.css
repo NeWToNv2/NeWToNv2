@@ -143,18 +143,18 @@ body {
 
 /* Nav */
 header {
-	margin-top: 20px;
+	margin-top: 200px;
 	position: fixed;
 	z-index: 10;
 	width: 100%;
 }
 .navbar {
-	padding: 1000px 35px;
+	padding: 10px 35px;
 	background: #FFFFFF;
 	border-radius: 25px;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
-	padding: 0;
+	padding: 100;
 	margin-left: 70px;
 	height: 30px;
 
