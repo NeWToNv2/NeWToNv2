@@ -119,7 +119,7 @@ body {
 	top: 2100px;
 	width: 667px;
 	height: 1072px;
-	background: url(images/ABAI.png);
+	background: url(images/ABAI.png) left no-repeat;
 	z-index: -10;
 }
 #blob1 {
