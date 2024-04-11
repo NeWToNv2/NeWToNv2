@@ -119,7 +119,7 @@ body {
 	top: 2100px;
 	width: 667px;
 	height: 1072px;
-	background: url(images/ABAI.png) left no-repeat;
+	background: url(images/ABAI.png);
 	z-index: -10;
 }
 #blob1 {
@@ -195,7 +195,7 @@ header {
 /* Main */
 main	{
 	position: relative;
-	top: 430px;
+	top: 730px;
 }
 /* intro */
 .padding-0-20 {
@@ -327,7 +327,7 @@ main	{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-        justify-content: space-between;
+
 	width: 150px;
 }
 .text {
@@ -511,7 +511,7 @@ footer {
 	display: flex;
 	align-items: center;
 	text-align: left;
-	
+
 	flex: none;
 	order: 0;
 	flex-grow: 0;
